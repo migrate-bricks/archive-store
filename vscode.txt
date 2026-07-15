@@ -1,0 +1,27 @@
+{
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "editor.formatOnSave": true,
+  "autopep8.args": [
+    "--max-line-length",
+    "1024"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+  },
+  "git.enableSmartCommit": true,
+  "files.autoSave": "afterDelay",
+  "explorer.sortOrderReverse": true,
+  "explorer.sortOrder": "filesFirst",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "window.zoomLevel": -0.5,
+  "extensions.ignoreRecommendations": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Visual Studio Light",
+  "editor.multiCursorLimit": 100000
+}

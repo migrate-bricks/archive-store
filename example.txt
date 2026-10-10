@@ -1,0 +1,129 @@
+curl --url 'https://api2.goofish.pro/api/home/getMenuCount?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/statistics' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=mf7agttu02Y6vZMYKZXNsnLK4d+BW2jWa1JH8xODTkmjyt1Jtwwmts4xwKIMhEoyh6jPbnFLydFFKfJwHC5bSm3k1F59GfSPvpFSLRhxwz/Yj6WP0PdORRkbgFubfHbkUYC3s3R3UUTM+30/4DBiQ0sTWvwD8W6ERYvy4lmg/Ek=;signature=RaADn5wY/E1BDM49vNF6TZ8Md99/nOPuD+7pmowpBTg=' ;
+curl --url 'https://api2.goofish.pro/api/user/operate/validate?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/statistics' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=W6aNUMLczv5E4igCmhMCi3L0/Q6pTdjPOre8Yn5U39Wje8Z5eqwiXEzBO34wVIYfKhwuZF+sjrmAYpNirgW/rYb7Uv2wmSXhCgRc9Kkdz3oiKf8QGcbG6XKJexU0HZP1R6KP+n1xklDiT7xevRpPwTtfTPnWcfVlW+qQRjI6OSs=;signature=GCiGRropZL2WGcImcvHIGXYMSFZNDDAUD8KLNLDROuA=' ;
+curl --url 'https://api2.goofish.pro/v1/user/authorize/list?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=tjEGUHSnN/FsBgh/mSrxfsALuZvcaCJrvxkwhflugGmVPLdbxPREcJauwg1GDYOydX+RUEArZog/s489XZ6UO3VJvc0MUonpQ3ii2zz/SrL/ty0G0OVbOdL6mTzRjALFQmEWQoVOccRGzS2PetY8QqagNHFoBs73GqW2td3L+7Q=;signature=6MG4hZ5hJ+DXg5WZPFbPNkLgSe/DnAoqdUk6kNMFnRI=' \
+  --data-raw '{"type":16}' ;
+curl --url 'https://api2.goofish.pro/api/order/options?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=BOiQJzA6PvwEj8mCQARADoDGlsFCEt4rWSnjeUD60NfSlu6DzUMj9RJXmSs7wDyCeWYsHkDG2mFVpBRK83Qgn6YixGiAvJnr34wFDOUd09P0Pl0V208VAflcsAZHLZz0VNjNZ7m12qXTE9jgtlxfyh5sxbpA4PZqMdnMsOgq9cU=;signature=kiUYvXmyitKlmH3jhJaXRxiS0XkRwr8aEfugcJkq/EE=' ;
+curl --url 'https://api2.goofish.pro/api/seller/notice/list?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=dn974wuvbMD/eWxMN3UAhJHS/md22fwPmVjJ+VQk3LlZRhwRu4OudQnSVQgzZnSPls4rCaXgswx6cfIugbBy1lwy72Y9t8L0PQLePIN6cfXOLw6x92T8hw8O3D4zY1ZGBe4v9PRjG1qAzwDr8zgzaEL69/TNcSsxTaj/jLZ7b00=;signature=SVj6gWLMd0BG52pFdWoXP2NzoeGjBOxJiJR6r2FO65U=' \
+  --data-raw '{"notice_way":"[12]","notice_type":"[10001,11001]","status":11}' ;
+curl --url 'https://api2.goofish.pro/api/setting/xianyu/count?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=E0lutgi7Uh7if9jT2+0Bm3Nt71MHSr67EdDSkQ/7TQVWd7oWVAeBBe2GrHxEWtvGoqX5mSIkfhRzeECLQvPJLcUuH/I8m2mQ3XuAZfnldv3N2CuKZNUt3dFGmzOaoNhJGnwRwBl8PXGjA0kBoUzSXSA68+4pRrw69W0tvtE2ths=;signature=rPsyDUohL2L2WhSEao5clEqRBW+qYEOZGVfQZXX8e30=' ;
+curl --url 'https://api2.goofish.pro/api/seller/product/list?channel=1&version=3.71.0' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=GnS6JnQdOJ3tsWQZUewp3vyI16RI2nzCnHkMbZcplXV1cHOFzlLjpn1W/S41WaLkbPfZc1QdE6AyUNdXmQ6TGGOwPTPxiM43k8Ko/FQKjW53mMr2L0VOAJL8+QyrPZ/aEHQbfX/HgFjUDhUS7wztjNBWwtJPi2r8WqgbxjFxauQ=;signature=Xoi0PyQaXl1mrN8h7vf0OmmHOizoZ7+EXo+8/9hGBHU=' \
+  --data-raw 'GfNzW321TwjIBSRw4shfWDKI0gO6rYJOLxS5lgEaxeF261oe9BYB403uoZ1NCsLUSmFxVlu6xzcJ9JdX79wgpA==' ;
+curl --url 'https://api2.goofish.pro/v1/taobao/order/status/count?channel=1&version=3.71.0' \
+  -X 'POST' \
+  -H 'accept: application/json' \
+  -H 'accept-language: en,zh-CN;q=0.9,zh-TW;q=0.8,zh;q=0.7' \
+  -H 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTE3OTg0OTMsImlhdCI6MTc5MTE5MzY5MywianRpIjoiMDIzYTY4YmMtN2YwMC00NGRhLWE5MDUtNTNhMTBmNTY5ZjllIiwibmFtZSI6IkRldmluIiwic2lkIjo1MTkwNTQwMTM5MTkzMDEsInR5cGUiOjEsInVpZCI6NTE5MDU0MDEzOTE5MzAyfQ.3s4_g0U_m4l0KAnWlznNrbWprqYbqz0IhDl8Gv2FpjY' \
+  -H 'content-length: 0' \
+  -H 'content-type: application/json;charset=utf-8' \
+  -H 'origin: https://goofish.pro' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://goofish.pro/sale/product/on-sale' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-content-security: key=G03EZWYdWI2l4IHZjbMnzkmb4h15yHOJ;secret=L7yDbCs0/ysyCC6r1/1jpXPcv265JUs8q9GQhS5D867+d0HCcIKqOZhxHyKMyffwjgtZP40qog/OJbqnnmaertgOHZNoKzP0vSniJF2FWhBAeZXDDZHGr2341z3tLUWo98DzxCagk/DW+WIkrWXJBAxVicXW1gqtIQkQzW4hXys=;signature=ycKFEl+WHKLaNXvosMpneKyiyjlgCHTNqc/Y5uespoU='
